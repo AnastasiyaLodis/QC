@@ -1,0 +1,142 @@
+body {
+	background: #1f1f1f;
+}
+
+.head_part {
+	height: 648px;
+	background: url(coffee.jpg);
+}
+
+.about_us {
+	height: 440px;
+	/*border-top: 1px solid white;  Линия сверху текста
+	border-bottom: 1px solid white;  Линия снизу текста */
+}
+
+.center {display:block; margin:75px auto 25px;}
+
+.soc_center {display: block; margin: 0 auto;}
+
+a:hover {text-decoration: none;}
+
+.h-nav {
+	text-align: center;
+	padding: 30px;
+}
+.h-nav a:hover {color: #1f1f1f;}
+
+.h-nav a{
+	font-family: 'NovitoNova Thin';
+	text-shadow:#1f1f1f 5px -1px 2px;
+	margin-right: 60px;
+	font-size: 48px;
+	color: #ffffff;
+}
+
+.desc1 {
+	background-color: #636363;
+	height: 430px;
+}
+
+.cars {
+	height: 430px;
+}
+
+.deskrip {
+	height: 430px;
+	background-color: #636363;
+}
+
+.desk_text {
+	text-align: center;
+	font-family: 'Calibri Light';
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 0em; /* Отступ сверху */
+	margin-bottom: 0em; /* Отступ снизу */
+}
+
+.line {
+	display:block;
+	margin:15px auto 0px;
+}
+
+
+.h_desk_center {
+	font-family: 'NovitoNova';
+	text-shadow:#1f1f1f 5px -1px 2px;
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.line1 {
+	display:block;
+	margin:0px auto 15px;
+}
+
+
+/* 1. */
+.carousel-control,
+.carousel-control:hover {
+	filter: none;
+	opacity: 1;
+	text-shadow: none;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+/* 2. */
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+	/*background-color: rgba(82, 192, 212, 0.5);*/
+	font-size: 16px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: -16px;
+	width: 32px;
+}
+.carousel-control .glyphicon-chevron-left {
+	left: 10px;
+	margin-left: 0;
+}
+.carousel-control .glyphicon-chevron-right {
+	right: 10px;
+	margin-right: 0;
+}
+.carousel-control:hover .glyphicon-chevron-left,
+.carousel-control:hover .glyphicon-chevron-right {
+	background-color: rgba(0, 0, 0, 0.14);
+}
+
+/* 3. */
+@media (min-width: 768px) {
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		font-size: 20px;
+		height: 50px;
+		line-height: 50px;
+		margin-top: -25px;
+		width: 50px;
+	}
+}
+
+.car-text {
+	text-align: center;
+	font-family: 'Calibri Light';
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 0em; /* Отступ сверху */
+	margin-bottom: 0em; /* Отступ снизу */
+}
+
+.deskrip-text {
+	text-align: center;
+	font-family: 'Calibri Light';
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 0em; /* Отступ сверху */
+	margin-bottom: 0em; /* Отступ снизу */
+}
